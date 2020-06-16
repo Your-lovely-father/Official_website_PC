@@ -50,6 +50,7 @@
 
 <script>
     import {mapState} from 'vuex'
+    import Api from '../../../api/nav/nav'
 
     export default {
         name: '',
@@ -60,7 +61,7 @@
                         link: '/',
                         name: '首页'
                     }, {
-                        link: '404',
+                        link: '/advantage',
                         name: '平台优势',
                         // list: [
                         //   {
@@ -81,8 +82,8 @@
                         name: '招商加盟'
                     },
                     {
-                        link: '404',
-                        name: '产品中心'
+                        link: '/product',
+                        name: '产品与案例'
                     },
                     {
                         link: '/contact',
@@ -128,7 +129,16 @@
                 this.timer = setTimeout(() => {
                     this.showItem = null;
                 }, 500)
+            },
+            getNav() {
+                Api.getNav().then(res => {
+                    console.log(res)
+                })
             }
+        },
+
+        mounted() {
+            this.getNav()
         }
     }
 </script>
@@ -190,9 +200,10 @@
         width: 154px;
         height: 34px
     }
-    .img{
-        width :100%;
-        margin-top :-10px;
+
+    .img {
+        width: 100%;
+        margin-top: -10px;
     }
 
     .nav-list__wrap

@@ -69,7 +69,7 @@
                     </div>
                     <div class="retail">
                         <p class="el-icon-phone-outline"></p>
-                        <p class="dianhua">零售财富热线：：<em>4000-315-666</em></p>
+                        <p class="dianhua">零售财富热线:<em>4000-315-666</em></p>
                     </div>
                 </div>
                 <div class="principal">
@@ -98,154 +98,154 @@
                 </div>
             </div>
         </div>
-        <div class="apply">
-            <div class="apply-box">
-                <div class="box-title">
-                    <p class="el-icon-document"></p>
-                    <p>申请加盟</p>
-                </div>
-                <div class="box">
-                    <div class="apply-box-left">
-                        <div class="contact">
-                            <p class="unify">
-                                <label>
-                                    <em class="must">*</em>
-                                    联系人
-                                </label>
-                                <el-input v-model="input" placeholder="请输入内容"
-                                          style="display: block;width: 350px"></el-input>
-                                <span style="display: block" class="must">必点字段</span>
-                            </p>
-                            <p style="margin-left: 15px" class="unify">
-                                <label>
-                                    <em class="must">*</em>
-                                    联系电话
-                                </label>
-                                <el-input v-model="input" placeholder="请输入内容"
-                                          style="display: block;width: 350px"></el-input>
-                                <span style="display: block" class="must">必点字段</span>
-                            </p>
-                        </div>
-                        <div class="diqu">
-                            <p>
-                                <label>
-                                    <em class="must">*</em>
-                                    地区
-                                </label>
-                            </p>
-                            <div class="select">
-                                <el-select v-model="value" placeholder="请选择" style="display: block;width: 229px">
-                                    <el-option
-                                            v-for="item in options"
-                                            :key="item.value"
-                                            :label="item.label"
-                                            :value="item.value">
-                                    </el-option>
-                                </el-select>
-                                <el-select v-model="value" placeholder="请选择"
-                                           style="display: block;width: 229px;margin-left: 15px">
-                                    <el-option
-                                            v-for="item in options"
-                                            :key="item.value"
-                                            :label="item.label"
-                                            :value="item.value">
-                                    </el-option>
-                                </el-select>
-                                <el-select v-model="value" placeholder="请选择"
-                                           style="display: block;width: 229px;margin-left: 15px">
-                                    <el-option
-                                            v-for="item in options"
-                                            :key="item.value"
-                                            :label="item.label"
-                                            :value="item.value">
-                                    </el-option>
-                                </el-select>
-                            </div>
-                        </div>
-                        <div class="remarks">
-                            <p>
-                                <label>
-                                    备注
-                                </label>
-                            </p>
-                            <el-input
-                                    type="textarea"
-                                    :rows="2"
-                                    placeholder="请输入内容"
-                                    v-model="textarea" style="width: 717px;">
-                            </el-input>
-                        </div>
-                        <div class="btn">
-                            <el-button type="primary" style="width: 190px;height: 40px;background:#d34c56;outline: none;border: none">提交</el-button>
-                        </div>
-                    </div>
-                    <div class="apply-box-right">
-                        <p class="title">已经加盟<span>877</span>家</p>
-                        <div class="border-content">
-                            <ul>
-                                <li>
-                                    <p></p>
-                                    <p>成**</p>
-                                    <p>沈阳铁西</p>
-                                </li>
-                                <li>
-                                    <p></p>
-                                    <p>成**</p>
-                                    <p>沈阳铁西</p>
-                                </li>
-                                <li>
-                                    <p></p>
-                                    <p>成**</p>
-                                    <p>沈阳铁西</p>
-                                </li>
-                                <li>
-                                    <p></p>
-                                    <p>成**</p>
-                                    <p>沈阳铁西</p>
-                                </li>
-                                <li>
-                                    <p></p>
-                                    <p>成**</p>
-                                    <p>沈阳铁西</p>
-                                </li>
-                                <li>
-                                    <p></p>
-                                    <p>成**</p>
-                                    <p>沈阳铁西</p>
-                                </li>
-                                <li>
-                                    <p></p>
-                                    <p>成**</p>
-                                    <p>沈阳铁西</p>
-                                </li>
-                                <li>
-                                    <p></p>
-                                    <p>成**</p>
-                                    <p>沈阳铁西</p>
-                                </li>
-                                <li>
-                                    <p></p>
-                                    <p>成**</p>
-                                    <p>沈阳铁西</p>
-                                </li>
-                                <li>
-                                    <p></p>
-                                    <p>成**</p>
-                                    <p>沈阳铁西</p>
-                                </li>
-                                <li>
-                                    <p></p>
-                                    <p>成**</p>
-                                    <p>沈阳铁西</p>
-                                </li>
+<!--        <div class="apply">-->
+<!--            <div class="apply-box">-->
+<!--                <div class="box-title">-->
+<!--                    <p class="el-icon-document"></p>-->
+<!--                    <p>申请加盟</p>-->
+<!--                </div>-->
+<!--                <div class="box">-->
+<!--                    <div class="apply-box-left">-->
+<!--                        <div class="contact">-->
+<!--                            <p class="unify">-->
+<!--                                <label>-->
+<!--                                    <em class="must">*</em>-->
+<!--                                    联系人-->
+<!--                                </label>-->
+<!--                                <el-input v-model="input" placeholder="请输入内容"-->
+<!--                                          style="display: block;width: 350px"></el-input>-->
+<!--                                <span style="display: block" class="must">必点字段</span>-->
+<!--                            </p>-->
+<!--                            <p style="margin-left: 15px" class="unify">-->
+<!--                                <label>-->
+<!--                                    <em class="must">*</em>-->
+<!--                                    联系电话-->
+<!--                                </label>-->
+<!--                                <el-input v-model="input" placeholder="请输入内容"-->
+<!--                                          style="display: block;width: 350px"></el-input>-->
+<!--                                <span style="display: block" class="must">必点字段</span>-->
+<!--                            </p>-->
+<!--                        </div>-->
+<!--                        <div class="diqu">-->
+<!--                            <p>-->
+<!--                                <label>-->
+<!--                                    <em class="must">*</em>-->
+<!--                                    地区-->
+<!--                                </label>-->
+<!--                            </p>-->
+<!--                            <div class="select">-->
+<!--                                <el-select v-model="value" placeholder="请选择" style="display: block;width: 229px">-->
+<!--                                    <el-option-->
+<!--                                            v-for="item in options"-->
+<!--                                            :key="item.value"-->
+<!--                                            :label="item.label"-->
+<!--                                            :value="item.value">-->
+<!--                                    </el-option>-->
+<!--                                </el-select>-->
+<!--                                <el-select v-model="value" placeholder="请选择"-->
+<!--                                           style="display: block;width: 229px;margin-left: 15px">-->
+<!--                                    <el-option-->
+<!--                                            v-for="item in options"-->
+<!--                                            :key="item.value"-->
+<!--                                            :label="item.label"-->
+<!--                                            :value="item.value">-->
+<!--                                    </el-option>-->
+<!--                                </el-select>-->
+<!--                                <el-select v-model="value" placeholder="请选择"-->
+<!--                                           style="display: block;width: 229px;margin-left: 15px">-->
+<!--                                    <el-option-->
+<!--                                            v-for="item in options"-->
+<!--                                            :key="item.value"-->
+<!--                                            :label="item.label"-->
+<!--                                            :value="item.value">-->
+<!--                                    </el-option>-->
+<!--                                </el-select>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <div class="remarks">-->
+<!--                            <p>-->
+<!--                                <label>-->
+<!--                                    备注-->
+<!--                                </label>-->
+<!--                            </p>-->
+<!--                            <el-input-->
+<!--                                    type="textarea"-->
+<!--                                    :rows="2"-->
+<!--                                    placeholder="请输入内容"-->
+<!--                                    v-model="textarea" style="width: 717px;">-->
+<!--                            </el-input>-->
+<!--                        </div>-->
+<!--                        <div class="btn">-->
+<!--                            <el-button type="primary" style="width: 190px;height: 40px;background:#d34c56;outline: none;border: none">提交</el-button>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class="apply-box-right">-->
+<!--                        <p class="title">已经加盟<span>877</span>家</p>-->
+<!--                        <div class="border-content">-->
+<!--                            <ul>-->
+<!--                                <li>-->
+<!--                                    <p></p>-->
+<!--                                    <p>成**</p>-->
+<!--                                    <p>沈阳铁西</p>-->
+<!--                                </li>-->
+<!--                                <li>-->
+<!--                                    <p></p>-->
+<!--                                    <p>成**</p>-->
+<!--                                    <p>沈阳铁西</p>-->
+<!--                                </li>-->
+<!--                                <li>-->
+<!--                                    <p></p>-->
+<!--                                    <p>成**</p>-->
+<!--                                    <p>沈阳铁西</p>-->
+<!--                                </li>-->
+<!--                                <li>-->
+<!--                                    <p></p>-->
+<!--                                    <p>成**</p>-->
+<!--                                    <p>沈阳铁西</p>-->
+<!--                                </li>-->
+<!--                                <li>-->
+<!--                                    <p></p>-->
+<!--                                    <p>成**</p>-->
+<!--                                    <p>沈阳铁西</p>-->
+<!--                                </li>-->
+<!--                                <li>-->
+<!--                                    <p></p>-->
+<!--                                    <p>成**</p>-->
+<!--                                    <p>沈阳铁西</p>-->
+<!--                                </li>-->
+<!--                                <li>-->
+<!--                                    <p></p>-->
+<!--                                    <p>成**</p>-->
+<!--                                    <p>沈阳铁西</p>-->
+<!--                                </li>-->
+<!--                                <li>-->
+<!--                                    <p></p>-->
+<!--                                    <p>成**</p>-->
+<!--                                    <p>沈阳铁西</p>-->
+<!--                                </li>-->
+<!--                                <li>-->
+<!--                                    <p></p>-->
+<!--                                    <p>成**</p>-->
+<!--                                    <p>沈阳铁西</p>-->
+<!--                                </li>-->
+<!--                                <li>-->
+<!--                                    <p></p>-->
+<!--                                    <p>成**</p>-->
+<!--                                    <p>沈阳铁西</p>-->
+<!--                                </li>-->
+<!--                                <li>-->
+<!--                                    <p></p>-->
+<!--                                    <p>成**</p>-->
+<!--                                    <p>沈阳铁西</p>-->
+<!--                                </li>-->
 
 
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+<!--                            </ul>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
     </div>
 </template>
 

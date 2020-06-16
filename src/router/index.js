@@ -18,17 +18,11 @@ const routes = [
         name: 'Home',
         component: Home,
     },
-    // 联系我们
+    // 平台优势
     {
-        path: '/contact',
-        name: 'contact',
-        component: () => import('../views/Contact/Contact.vue'),
-    },
-    //关于我们
-    {
-        path: '/about',
-        name: 'about',
-        component: () => import('../views/About/About.vue'),
+        path: '/advantage',
+        name: 'advantage',
+        component: () => import('../views/Advantage/Advantage.vue'),
     },
     //企业荣誉
     {
@@ -42,6 +36,26 @@ const routes = [
         name: 'league',
         component: () => import('../views/League/League.vue'),
     },
+    //产品与案例
+    {
+        path: '/product',
+        name: 'product',
+        component: () => import('../views/Product/Product.vue'),
+    },
+    // 联系我们
+    {
+        path: '/contact',
+        name: 'contact',
+        component: () => import('../views/Contact/Contact.vue'),
+    },
+    //关于我们
+    {
+        path: '/about',
+        name: 'about',
+        component: () => import('../views/About/About.vue'),
+    },
+
+
     //---------------------------------------------------    4 0 4       ----------------------------------------------
     {
         path: "/404",

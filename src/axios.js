@@ -1,8 +1,8 @@
 import axios from 'axios'
 
 // 全局的 axios 默认值
-axios.defaults.baseURL = '/api';
-// axios.defaults.baseURL = 'http://49.233.174.102:8089/uajax';
+// axios.defaults.baseURL = '/api';
+axios.defaults.baseURL = 'http://192.168.1.104:8080';
 
 
 axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded';

@@ -73,11 +73,11 @@
                         // ]
                     },
                     {
-                        link: '404',
-                        name: '成功案例'
+                        link: '/honor',
+                        name: '企业荣誉'
                     },
                     {
-                        link: '404',
+                        link: '/league',
                         name: '招商加盟'
                     },
                     {
@@ -89,7 +89,7 @@
                         name: '联系我们'
                     },
                     {
-                        link: '404',
+                        link: '/about',
                         name: '关于我们'
                     },
                 ],

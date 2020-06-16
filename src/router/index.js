@@ -24,6 +24,24 @@ const routes = [
         name: 'contact',
         component: () => import('../views/Contact/Contact.vue'),
     },
+    //关于我们
+    {
+        path: '/about',
+        name: 'about',
+        component: () => import('../views/About/About.vue'),
+    },
+    //企业荣誉
+    {
+        path: '/honor',
+        name: 'honor',
+        component: () => import('../views/Honor/Honor.vue'),
+    },
+    //招商加盟
+    {
+        path: '/league',
+        name: 'league',
+        component: () => import('../views/League/League.vue'),
+    },
     //---------------------------------------------------    4 0 4       ----------------------------------------------
     {
         path: "/404",

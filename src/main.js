@@ -7,7 +7,6 @@ import './assets/css/reset.css'
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
 Vue.use(ElementUI);
-// Vue.prototype.$BaseUrl = 'http://192.168.1.104/';
 new Vue({
   router,
   store,

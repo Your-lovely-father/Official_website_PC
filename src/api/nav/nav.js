@@ -7,6 +7,6 @@ import axios from '../../axios'
 
 export default {
     getNav(){
-        return axios.get('Navigation')
+        return axios.get('topics')
     }
 }

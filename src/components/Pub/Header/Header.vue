@@ -95,7 +95,8 @@
                     },
                 ],
                 showItem: null,
-                timer: null
+                timer: null,
+                home:''
             }
         },
 
@@ -133,6 +134,13 @@
             getNav() {
                 Api.getNav().then(res => {
                     console.log(res)
+                    // this.navList[0].name=res.data.data[0].name,
+                    // this.navList[1].name=res.data.data[1].name,
+                    // this.navList[2].name=res.data.data[2].name,
+                    // this.navList[3].name=res.data.data[3].name,
+                    // this.navList[4].name=res.data.data[4].name,
+                    // this.navList[5].name=res.data.data[5].name,
+                    // this.navList[6].name=res.data.data[6].name
                 })
             }
         },

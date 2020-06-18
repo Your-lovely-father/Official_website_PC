@@ -25,7 +25,7 @@
                 :english="{name:'service'}"
         />
         <div class="module2">
-            <img src="../../assets/img/cc.jpg" alt="">
+            <img :src="image" alt="">
             <div class="module2-box">
                 <p class="titile">可立刻有限公司</p>
                 <p>描述说分手快发货IFFif必胜法宝司法部客服部覅社保费死不死啊腐败干部阿古柏卡不过iabib</p>
@@ -125,7 +125,7 @@
         name: "home",
         data(){
             return{
-                image:require('../../assets/')
+                image:require('../../assets/img/cc.jpg')
             }
         },
         components:{
@@ -134,17 +134,24 @@
         methods:{
             guide(val){
                 if(val===1){
-                    console.log('我是1')
+                    this.image=require('../../assets/img/cc.jpg');
                     return false;
                 }else  if(val===2){
-                    console.log('我是2')
+                    this.image=require('../../assets/img/bb.jpg');
                     return false;
                 }else  if(val===3){
-                    console.log('我是3')
+                    this.image=require('../../assets/img/aa.jpg');
                     return false;
                 }
+            },
+            handleScroll(e){
+                var scrollTop = document.documentElement.scrollTop || document.body.scrollTop
+                console.log(parseInt(scrollTop))
             }
-        }
+        },
+        mounted(){
+            window.addEventListener('scroll',this.handleScroll,true)
+        },
     }
 </script>
 

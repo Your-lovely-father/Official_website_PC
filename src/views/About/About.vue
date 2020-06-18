@@ -97,7 +97,16 @@
     }
     .footer-box{
         width: 380px;
+        overflow: hidden;
         position: relative;
+    }
+    .footer-box>img{
+        width: 100%;
+        cursor: pointer;
+        transition: all 0.6s;
+    }
+    .footer-box>img:hover{
+        transform: scale(1.4);
     }
     .footer-text{
         position: absolute;

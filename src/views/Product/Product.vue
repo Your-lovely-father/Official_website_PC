@@ -201,12 +201,17 @@
         text-align: center;
         position: relative;
         margin-bottom: 40px;
-    }
+        overflow: hidden;
 
+    }
     .exhibition-box > img {
         width: 100%;
+        cursor: pointer;
+        transition: all 0.6s;
     }
-
+    .exhibition-box >img:hover{
+        transform: scale(1.4);
+    }
     .exhibition-box > p {
         width: 100%;
         height: 44px;

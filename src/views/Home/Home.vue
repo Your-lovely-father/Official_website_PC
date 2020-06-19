@@ -125,7 +125,7 @@
         name: "home",
         data(){
             return{
-                image:require('../../assets/img/cc.jpg')
+                image:require('../../assets/img/cc.jpg'),
             }
         },
         components:{
@@ -144,8 +144,8 @@
                     return false;
                 }
             },
-            handleScroll(e){
-                var scrollTop = document.documentElement.scrollTop || document.body.scrollTop
+            handleScroll(){
+                var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
                 console.log(parseInt(scrollTop))
             }
         },
@@ -318,4 +318,17 @@
         width: 100%;
         padding: 60px 0;
     }
+    /*.mover>ul>li:hover>.module2>img{*/
+    /*    animation: myfirst 5s;*/
+    /*}*/
+    /*@keyframes myfirst*/
+    /*{*/
+    /*    from {*/
+    /*        transition: opacity .5s;*/
+    /*    }*/
+    /*    to {*/
+    /*        opacity:0.5;*/
+    /*    }*/
+    /*}*/
+
 </style>

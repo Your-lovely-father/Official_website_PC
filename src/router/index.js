@@ -61,7 +61,6 @@ const routes = [
         path: "/404",
         name: "notFound",
         component: () => import('../views/Home/404.vue'),
-        // FIXME: header nav 部分完成后应该去掉该部分 showHeaderNav showHeaderLogo
         meta: {
             showHeaderNav: true
         }

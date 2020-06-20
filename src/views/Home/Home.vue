@@ -25,7 +25,7 @@
                 :english="{name:'service'}"
         />
         <div class="module2">
-            <img :src="image" alt="">
+            <img :src="image" alt="" ref="image">
             <div class="module2-box">
                 <p class="titile">可立刻有限公司</p>
                 <p>描述说分手快发货IFFif必胜法宝司法部客服部覅社保费死不死啊腐败干部阿古柏卡不过iabib</p>
@@ -152,6 +152,7 @@
         mounted(){
             window.addEventListener('scroll',this.handleScroll,true)
         },
+
     }
 </script>
 
@@ -214,6 +215,8 @@
     }
     .mover>ul>li{
         width: 72px;
+        cursor: pointer;
+        transition: all 0.6s;
     }
     .mover>ul>li>img{
         width: 72px;
@@ -318,17 +321,7 @@
         width: 100%;
         padding: 60px 0;
     }
-    /*.mover>ul>li:hover>.module2>img{*/
-    /*    animation: myfirst 5s;*/
-    /*}*/
-    /*@keyframes myfirst*/
-    /*{*/
-    /*    from {*/
-    /*        transition: opacity .5s;*/
-    /*    }*/
-    /*    to {*/
-    /*        opacity:0.5;*/
-    /*    }*/
-    /*}*/
-
+    .mover>ul>li:hover{
+        transform: scale(0.9);
+    }
 </style>

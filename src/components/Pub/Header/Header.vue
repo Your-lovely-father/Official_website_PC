@@ -59,10 +59,10 @@
                 navList: [
                     {
                         link: '/',
-                        name: '首页'
+                        name: ''
                     }, {
                         link: '/advantage',
-                        name: '平台优势',
+                        name: '',
                         // list: [
                         //   {
                         //     link: '404',
@@ -75,23 +75,23 @@
                     },
                     {
                         link: '/honor',
-                        name: '企业荣誉'
+                        name: ''
                     },
                     {
                         link: '/league',
-                        name: '招商加盟'
+                        name: ''
                     },
                     {
                         link: '/product',
-                        name: '产品与案例'
+                        name: ''
                     },
                     {
                         link: '/contact',
-                        name: '联系我们'
+                        name: ''
                     },
                     {
                         link: '/about',
-                        name: '关于我们'
+                        name: ''
                     },
                 ],
                 showItem: null,
@@ -133,7 +133,7 @@
             },
             getNav() {
                 Api.getNav().then(res => {
-                    console.log(res);
+                    console.log(res.data.data);
                     this.navList[0].name=res.data.data[0].name,
                     this.navList[1].name=res.data.data[1].name,
                     this.navList[2].name=res.data.data[2].name,

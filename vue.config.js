@@ -7,6 +7,7 @@ module.exports = {
   configureWebpack: () => {},
   devServer: {
     proxy: {
+
       '/api': {
         target: 'http://192.168.1.104',
         ws: true,

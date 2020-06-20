@@ -76,23 +76,23 @@
                     },
                     {
                         link: '/honor',
-                        name: '555'
+                        name: ''
                     },
                     {
                         link: '/league',
-                        name: '555'
+                        name: ''
                     },
                     {
                         link: '/product',
-                        name: '555'
+                        name: ''
                     },
                     {
                         link: '/contact',
-                        name: '555'
+                        name: ''
                     },
                     {
                         link: '/about',
-                        name: '555'
+                        name: ''
                     },
                 ],
                 showItem: null,

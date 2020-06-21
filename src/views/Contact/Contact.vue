@@ -2,10 +2,10 @@
     <div class="contact">
         <div class="contact-box">
             <div class="tab">
-                <myTopNav
-                        :root="{name: '首页', root: '/'}"
-                        :link="{name: '联系我们', link: '/contact'}"
-                />
+<!--                <myTopNav-->
+<!--                        :root="{name: '首页', root: '/'}"-->
+<!--                        :link="{name: '联系我们', link: '/contact'}"-->
+<!--                />-->
             </div>
             <div class="contact-content">
                 <p>辽宁大连可立刻有限公司</p>
@@ -33,12 +33,12 @@
 </template>
 
 <script>
-    import myTopNav from "../../components/Pub/Tab/Tab"
+    // import myTopNav from "../../components/Pub/Tab/Tab"
 
     export default {
         name: "contact",
         components: {
-            myTopNav
+            // myTopNav
         },
         data(){
             return{
@@ -67,7 +67,7 @@
     }
 
     .tab {
-        padding-top: 50px;
+        padding-top: 130px;
     }
 
     .contact-content {
